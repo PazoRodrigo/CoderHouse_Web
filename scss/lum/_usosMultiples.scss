@@ -61,3 +61,58 @@
   text-decoration-line: underline;
   color: $colorAzul;
 }
+
+// ************************************************************************************************************************************
+// SASS.. No lo utilizo pero lo declaro para tenerlo.
+// ************************************************************************************************************************************
+
+/* EACH */
+$botones: (
+  btnAceptar: green,
+  btnInfo: lightblue,
+  btnEliminar: red,
+);
+@each $miBtn, $colorFondo in $botones {
+  .btn--#{$miBtn} {
+    background-color: $colorFondo;
+  }
+}
+
+/* EXTEND */
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+.flex-left {
+	display: flex;
+	justify-content: start;
+	align-items: center;	
+}
+
+.flex-right {
+	display: flex;
+	justify-content: end;
+	align-items: center;	
+}
+
+/* MIXIN */
+@mixin boxesSizes($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+
+
+.box1 {
+  background-color: blue;
+  @include boxesSizes(100px, 100px);
+  @extend .flex-left;
+}
+
+.box2 {
+  background-color: red;
+  @include boxesSizes(150px, 150px);
+  @extend .flex-right;
+}

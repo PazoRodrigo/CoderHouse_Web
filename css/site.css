@@ -79,6 +79,51 @@
   color: blue;
 }
 
+/* EACH */
+.btn--btnAceptar {
+  background-color: green;
+}
+
+.btn--btnInfo {
+  background-color: lightblue;
+}
+
+.btn--btnEliminar {
+  background-color: red;
+}
+
+/* EXTEND */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-left, .box1 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.flex-right, .box2 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+/* MIXIN */
+.box1 {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
+
+.box2 {
+  background-color: red;
+  width: 150px;
+  height: 150px;
+}
+
 /* **********  Colores Equipos */
 .fondoRedBull {
   background-color: rgb(35, 50, 106);
