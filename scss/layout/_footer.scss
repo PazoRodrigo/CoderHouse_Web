@@ -1,0 +1,29 @@
+#contenedorFooter {
+  position: relative;
+}
+.contenedorLblRedes {
+  position: absolute;
+  top: 0;
+  left: 0%;
+  height: 100%;
+  width: 250px;
+  text-align: end;
+}
+.contenedorRedes {
+  position: absolute;
+  top: 0;
+  left: 75%;
+  height: 100%;
+  width: 180px;
+}
+.contenedorIconoRed {
+  background-color: transparent;
+  display: inline;
+}
+.icono {
+  width: 20px;
+  height: 20px;
+}
+.footerBox {
+  padding: 10px;
+}

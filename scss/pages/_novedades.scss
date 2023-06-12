@@ -1,0 +1,87 @@
+/* Novedades */
+.containerNews {
+  display: inline-block;
+  width: 250px;
+  height: 300px;
+  overflow: hidden;
+  left: 15px;
+  margin-top: 40px;
+  margin-left: 40px;
+  box-shadow: 5px 8px 12px black;
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+}
+.finalImportante {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.photoContainer {
+  height: 63vh;
+  display: inline-block;
+  width: 48%;
+  overflow: hidden;
+  vertical-align: top;
+  border-top-right-radius: 80px;
+}
+.divTopNews {
+  margin-left: 5px;
+  border-top: thick double #32a1ce;
+  border-right: thick double #32a1ce;
+  border-bottom: thick double #32a1ce;
+  border-top-right-radius: 80px;
+  padding-bottom: 20px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+.TituloTopNewsCabecera {
+  font-family: "Orbitron";
+  font-size: 3em;
+}
+.TituloNewsCabecera {
+  font-family: "Orbitron";
+  font-size: 2em;
+}
+.TopNewsTitle {
+  font-size: 2em;
+  font-family: "Montserrat";
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.NewsTitle {
+  font-size: 20px;
+  font-family: "Montserrat";
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-decoration: underline wavy red;
+  font-weight: bold;
+  padding-left: 25px;
+}
+.TopNewsText {
+  font-family: "Montserrat";
+  height: 63vh;
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+  text-align: left;
+  padding-left: 3px;
+  overflow-y: auto;
+}
+.News {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+}
+.NewsText {
+  font-family: "Montserrat";
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding-left: 3px;
+}
+.TituloOtrasNoticias {
+  font-family: "Orbitron";
+  text-align: center;
+  font-size: 2em;
+}
+.News {
+  width: 90%;
+}

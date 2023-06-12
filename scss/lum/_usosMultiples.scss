@@ -1,0 +1,63 @@
+/* ********************************** Usos Múltiples */
+.fondoNegro {
+  background-color: $colorNegro;
+}
+.fondoCrema {
+  background-color: $colorCrema;
+}
+.fondoRojo {
+  background-color: $colorRojo;
+}
+
+.bordeAzul {
+  border-color: $colorAzulClaro;
+}
+.bordeRojo {
+  border-color: $colorRojo;
+}
+.scrollLateral {
+  overflow-y: scroll;
+}
+.letraNegro {
+  color: $colorNegro;
+}
+.letraCrema {
+  color: $colorCrema;
+}
+.letraRojo {
+  color: $colorRojo;
+}
+.fondoTransparente {
+  background-color: rgba(220, 220, 220, 0.5);
+}
+
+.linea {
+  border-bottom: 3px solid;
+}
+.enLinea {
+  display: inline;
+}
+.enBloque {
+  display: block;
+}
+
+.anclaArriba {
+  position: fixed;
+  margin-right: 25px;
+  left: 85%;
+  top: 85%;
+}
+.negrita {
+  font-weight: bold;
+}
+.photo {
+  width: 100%;
+  height: 100%;
+}
+.centrado {
+  text-align: center;
+}
+.subrayadoLink {
+  text-decoration-line: underline;
+  color: $colorAzul;
+}

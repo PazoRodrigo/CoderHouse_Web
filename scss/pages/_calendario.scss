@@ -1,0 +1,75 @@
+/* **********  Calendario */
+.containerRound {
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    left: 15px;
+    margin-top: 40px;
+    margin-left: 40px;
+    box-shadow: 5px 8px 12px black;
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    background-color: rgb(10, 10, 10);
+  }
+  .containerRound:hover {
+    transform: scale(1.2);
+    box-shadow: 13px 15px 37px rgb(30, 30, 30);
+  }
+  .round {
+    color: silver;
+    font-size: 18px;
+    font-family: Orbitron;
+  }
+  .containerRound .date {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat;
+  }
+  .containerRound .dateRealizado {
+    background-color: red;
+  }
+  .containerRound .dateSiguiente {
+    background-color: green;
+  }
+  .containerRound .dateConPrevia {
+    background-color: $colorAzul;
+  }
+  dateConPrevia .CalendarioRealizado {
+    border: 5px solid green;
+  }
+  .CalendarioSiguiente {
+    border: 8px groove green;
+  }
+  .CalendarioConPrevia {
+    border: 5px solid $colorAzul;
+  }
+  .CalendarioCarrera {
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: Montserrat;
+    text-decoration-line: underline;
+  }
+  .CarreraPhoto {
+    width: 100%;
+    height: 160px;
+  }
+  .CarreraPuesto1 {
+    text-align: center;
+    position: absolute;
+    left: 0%;
+  }
+  .CarreraPuesto2 {
+    position: absolute;
+    text-align: center;
+    left: 34%;
+  }
+  .CarreraPuesto3 {
+    position: absolute;
+    text-align: center;
+    left: 69%;
+  }

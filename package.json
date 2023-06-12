@@ -1,0 +1,20 @@
+{
+  "name": "coderhouse_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PazoRodrigo/CoderHouse_Web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PazoRodrigo/CoderHouse_Web/issues"
+  },
+  "homepage": "https://github.com/PazoRodrigo/CoderHouse_Web#readme"
+}
